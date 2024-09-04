@@ -1,21 +1,29 @@
-##  BL🔍CK VIEWER ##
-Block Viewer is a streamlined blockchain explorer designed specifically for EVM (Ethereum Virtual Machine) based blockchain networks. Its primary advantage is its lightweight nature, ensuring that it doesn't consume excessive resources like many other explorers. This makes it particularly suitable for those who need a less resource-intensive solution. Moreover, as long as users have access to the RPC APIs, they can utilize Block Viewer seamlessly. A significant motivation behind the development of Block Viewer was the realization that many existing explorers are not only resource-heavy but also lack compatibility with private network setups. Block Viewer fills this gap, offering a versatile tool for both public and private blockchain explorations.
+##  CertLedger :ledger: :scroll: ##
+CertLedger DApp is an innovative decentralized application that leverages blockchain technology to manage digital certificates with enhanced security and transparency. With CertLedger, users can easily create new certificates by entering their details, such as name, course, and date of issuance. Once created, these certificates are securely recorded on the blockchain, ensuring they are immutable and tamper-proof.
 
-🎯 Purpose
-The explorer is primarily designed for real-time viewing of private blockchain networks, addressing the requirements when EVM-based networks are utilized for private applications. It's a lightweight, resource-efficient application intended to operate concurrently with the network. Moreover, its minimal reliance on external libraries such as web3 or ether.js ensures hassle-free maintenance.
+CertLedger also allows users to retrieve their certificates at any time by simply providing the corresponding certificate ID. This feature ensures that certificates are always accessible and verifiable, providing a trustworthy way for individuals and institutions to manage and authenticate important documents. The use of blockchain technology guarantees that all certificates stored on CertLedger are permanent, auditable, and resistant to unauthorized changes.
 
-🛠 Built With
-NodeJS JavaScript ReactJs Ethereum
-📢 Prerequisites
-NodeJS 16.x
-⚙️ Run Locally
+## 🎯 Purpose ##
+The purpose of CertLedger DApp is to provide a secure, transparent, and reliable platform for issuing, managing, and verifying digital certificates using blockchain technology. By leveraging the immutable and decentralized nature of blockchain, CertLedger ensures that certificates are tamper-proof and easily accessible. 
+
+## 🛠 **Built With**
+
+![NodeJS](https://img.icons8.com/color/48/000000/nodejs.png) ![JavaScript](https://img.icons8.com/color/48/000000/javascript.png) ![ReactJS](https://img.icons8.com/color/48/000000/react-native.png) ![Ethereum](https://img.icons8.com/ios-filled/50/000000/ethereum.png) ![Vite](https://img.icons8.com/fluency/48/000000/vite.png)
+
+
+## ⚙️ Run Locally ##
+
+
+
 Clone the Project and change into the directory
-
-git clone https://github.com/Kerala-Blockchain-Academy/light-explorer
-cd light-explorer
+```bash
+git clone https:/
+cd
+```
 Install dependencies
-
+```bash
 npm install
+```
 To connect to any EVM-compatible blockchain network, update the REACT_APP_API_URL value in the .env file.
 
 light-explorer/.env
@@ -26,20 +34,13 @@ Line 1 in b7c09be
 Run the application
 
 npm start
-🐳 Docker
-Now to run using docker execute the following command
 
-docker compose up -d
-🎞️ Demo
+
+## :video_camera: Demo ##
 Demo
 
-📦 Planned Updates
-MetaMask Compatability
-UI Updates
-Mobile View
-Production Release
-Desktop App
-🎗️ Contributing
+
+## :ribbon: Contributing ##
 The open source community thrives on the contributions of its members, making it a remarkable space for learning, inspiration, and innovation. Every contribution you offer is deeply valued.
 
 Should you have ideas to enhance this, kindly fork the repository and initiate a pull request. Alternatively, you can open an issue and tag it with enhancement. Remember to star the project! Many thanks!
@@ -49,5 +50,5 @@ Create your Feature Branch (git checkout -b feature/<feature_name>)
 Commit your Changes (git commit -m '<feature_name>_added')
 Push to the Branch (git push origin feature/<feature_name>)
 Open a Pull Request
-📜 License
+## :page_with_curl: License ##
 This project is licensed under the MIT license - see the LICENSE.md file for details.
